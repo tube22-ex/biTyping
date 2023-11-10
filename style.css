@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,input{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#start_screen_div{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    font-size: 5em;
+    text-align: center;
+    z-index: 10;
+    background-color: black;
+}
+
+div#content,input{
+    font-size: 5em;
+}
